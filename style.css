@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Outfit:wght@400;700&family=Poppins:wght@300&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    flex-direction: column;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 14px;
+    box-shadow: 5px 5px 50px hsl(215, 49%, 7%);
+
+
+}
+
+.container {
+    width: 300px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 12px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.card{
+    height: 270px;
+    width: 260px;
+    background-color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -185px;
+    border-radius: 9px;
+}
+
+
+.card2{
+    height: 100%;
+    width: 100%;
+    border-radius: 9px;
+    background-image: url(image-equilibrium.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1{  
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Outfit';
+    margin-top: 140px;
+    margin-left: -373px;
+    position: fixed;
+    
+}
+
+.text1{
+    margin-top: 220px;
+    margin-left: -316px;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit';
+    position: fixed;
+}
+
+.diamond {
+    
+    margin-left: -505px;
+    margin-top: 309px;
+   position: fixed;
+
+}
+
+.text2{
+    color: hsl(178, 100%, 50%);
+    margin-top: 309px;
+    margin-left: -425px;
+    position: fixed; 
+}
+
+.clock {
+    margin-top: 309px;
+    margin-left: -140px;
+    position: fixed;
+}
+
+.text3 {
+    margin-top: 309px;
+    font-weight: 300;
+    margin-left: -55px;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit';
+    position: fixed;
+}
+
+.dash {
+    width: 257px;
+    height: 0.05rem;
+    background-color: hsl(215, 32%, 27%);
+    margin-top: 360px;
+    position: fixed;
+    margin-left: -260px;
+
+}
+
+.circle{
+    height: 28px;
+    width: 28px;
+    margin-left: -490px;
+    margin-top: 420px;
+    position: relative;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+}
+
+.avatar {
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image: url(image-avatar.png);
+}
+
+.text4 {
+    margin-top: 423px;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit';
+    margin-left: -370px;
+    position: fixed;
+}
+
+.text5 {
+    color: white;
+    margin-top: 425px;
+    margin-left: -218px;
+    position: relative;
+
+}
+
+
+
+
+@media (max-width: 900px) {
+    
+}
