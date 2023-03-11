@@ -171,5 +171,15 @@ h1{
 
 
 @media (max-width: 900px) {
+    .text1{
+        margin-left: -310px;
+        position: fixed;
+    }
+
+    .text5 {
+        margin-left: -216px;
+        position: relative;
+    
+    }
     
 }
